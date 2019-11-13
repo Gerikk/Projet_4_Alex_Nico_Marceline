@@ -220,11 +220,11 @@ print("'MOOC_GRP_MAN' Collections:")
 for cn in bdd.list_collection_names():
     print("-"+cn)
 collec = client['MOOC_GRP_MAN']['Triss_Merigold']
-cternazscie=urlsmoocAcces1[14]
+test14=urlsmoocAcces1[14]
 
 #for urlsmooc in urlsmoocAcces1:
 response = requests.get(
-    "https://www.fun-mooc.fr/courses/course-v1:inria+41012+self_paced/discussion/forum/i4x-inria-41012S02-course-session02/threads/"+cternazscie+"?ajax=1&resp_skip=0&resp_limit=999",
+    "https://www.fun-mooc.fr/courses/course-v1:inria+41012+self_paced/discussion/forum/i4x-inria-41012S02-course-session02/threads/"+test14+"?ajax=1&resp_skip=0&resp_limit=999",
     #params={'q': 'requests+language:python'},
     #headers={'Accept': 'application/vnd.github.v3.text-match+json'},
     headers={
