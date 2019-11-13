@@ -219,7 +219,7 @@ bdd
 print("'MOOC_GRP_MAN' Collections:")
 for cn in bdd.list_collection_names():
     print("-"+cn)
-collec = client['MOOC_GRP_MAN']['Triss_Merigold']
+collec = client['MOOC_GRP_MAN']['New_base']
 test14=urlsmoocAcces1[14]
 
 #for urlsmooc in urlsmoocAcces1:
